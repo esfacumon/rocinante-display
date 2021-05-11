@@ -4,9 +4,15 @@
         <div style="height: 60%; width: 90%; background-color: aqua;"></div>
     </div>
     <div class="control">
-        <mat-slider min="1" max="100" step="1" value="50" vertical></mat-slider>
-        <mat-slider min="1" max="100" step="1" value="50" vertical></mat-slider>
-        <mat-slider min="1" max="100" step="1" value="50" vertical></mat-slider>
+        <div class="control-info">
+            <h1>{{speed}}</h1>
+            <h1>{{altitude}}</h1>
+        </div>
+        <div class="control-sliders">
+            <mat-slider min="1" max="100" step="1" value="50" vertical></mat-slider>
+            <mat-slider min="1" max="100" step="1" value="50" vertical></mat-slider>
+            <mat-slider min="1" max="100" step="1" value="50" vertical></mat-slider>
+        </div>
     </div>
     <div class="alerts">
 

@@ -26,6 +26,31 @@
 }
 
 .control{
+    background-color: gray;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    
+}
+
+.control-info{
+    height: 20%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.control-sliders{
+
+    height: 70%;
+
+    padding: 0% 10%;
 
     background-color: grey;
 
@@ -36,14 +61,18 @@
     justify-content: space-evenly;
 }
 
-.control mat-slider{
-    height: 70%;
+.control-sliders mat-slider{
+    height: 90%;
     margin: 10% 0px;
 }
 
 .alerts{
 
     background-color: hotpink;
+
+    display: grid;
+    
+
 }
 
 .buttons{
