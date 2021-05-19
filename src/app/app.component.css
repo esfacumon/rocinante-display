@@ -15,7 +15,11 @@ mat-toolbar{
     justify-content: center;
 }
 
-mat-toolbar img{
+mat-toolbar a{
+    height: 100%;
+}
+
+mat-toolbar a img{
     height: 90%;
 }
 
