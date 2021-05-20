@@ -3,3 +3,40 @@
     height: 90vh;
     width: 95vw;
 }
+
+.alert-indicator{
+
+    background-color: #290C0C;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    
+}
+
+.alert-indicator h6{
+    margin: 0px !important;
+
+    font-size: small;
+}
+
+.button-default{
+    background-color: #013233;
+    border: 1px solid #06E6EB;
+    border-radius: 10px;
+
+    color: white;
+}
+
+.button-danger{
+    background-color: #B20000;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    color: white;
+}
+
+

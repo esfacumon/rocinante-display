@@ -14,7 +14,9 @@ import { ComanderMainComponent } from './components/comander/comander-main/coman
 import { PilotMainComponent } from './components/pilot/pilot-main/pilot-main.component';
 import { GunnerMainComponent } from './components/gunner/gunner-main/gunner-main.component';
 import { AirlockComponent } from './components/utilities/airlock/airlock.component';
-import { ArmoryComponent } from './components/utilities/armory/armory.component';  
+import { ArmoryComponent } from './components/utilities/armory/armory.component';
+import { ComanderAirlockComponent } from './components/comander/comander-airlock/comander-airlock.component';
+import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';  
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ArmoryComponent } from './components/utilities/armory/armory.component'
     PilotMainComponent,
     GunnerMainComponent,
     AirlockComponent,
-    ArmoryComponent
+    ArmoryComponent,
+    ComanderAirlockComponent,
+    ComanderCombatComponent
   ],
   imports: [
     BrowserModule,
