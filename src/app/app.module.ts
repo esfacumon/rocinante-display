@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button'; 
+import {MatTableModule} from '@angular/material/table';
 
 
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
@@ -16,7 +17,8 @@ import { GunnerMainComponent } from './components/gunner/gunner-main/gunner-main
 import { AirlockComponent } from './components/utilities/airlock/airlock.component';
 import { ArmoryComponent } from './components/utilities/armory/armory.component';
 import { ComanderAirlockComponent } from './components/comander/comander-airlock/comander-airlock.component';
-import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';  
+import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';
+import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';  
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { ComanderCombatComponent } from './components/comander/comander-combat/c
     AirlockComponent,
     ArmoryComponent,
     ComanderAirlockComponent,
-    ComanderCombatComponent
+    ComanderCombatComponent,
+    ComanderComsComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { ComanderCombatComponent } from './components/comander/comander-combat/c
     MatSliderModule,
     MatToolbarModule,
     MatButtonModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

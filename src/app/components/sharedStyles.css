@@ -4,6 +4,29 @@
     width: 95vw;
 }
 
+.component-top-bar{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.component-top-bar h1{
+    color: white;
+    font-size: 2em;
+
+    margin: 0px !important;
+}
+
+.button-return{
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+
 .alert-indicator{
 
     background-color: #290C0C;
@@ -31,6 +54,15 @@
     color: white;
 }
 
+.button-red-inactive{
+    background-color: #290C0C;
+    border: 1px solid #B20000;
+    border-radius: 10px;
+
+    color: white;
+}
+
+
 .button-danger{
     background-color: #B20000;
     border: 1px solid white;
@@ -38,5 +70,3 @@
 
     color: white;
 }
-
-
