@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';
 import { ComanderAirlockComponent } from './components/comander/comander-airlock/comander-airlock.component';
 import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';
 import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path : 'comander/airlock', component : ComanderAirlockComponent},
   {path : 'comander/combat', component : ComanderCombatComponent},
   {path : 'comander/coms', component : ComanderComsComponent},
+  {path : 'comander/airlock-camera/:id', component : ComanderAirlockCameraComponent},
 ];
 
 @NgModule({
