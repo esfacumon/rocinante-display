@@ -1,0 +1,51 @@
+.main-div{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.alerts-section{
+
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(5, 80px);
+    grid-gap: 20px;
+
+    align-self: center;
+}
+
+.alerts-section :last-child{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.roci-img{
+    margin: 10px;
+}
+
+.buttons-section{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-section-nav{
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(3, 100px);
+
+    grid-gap: 20px;
+}
+
+.buttons-section-nav :nth-last-child(-n+2){
+    grid-column: span 2;
+}
+
+
+
