@@ -19,7 +19,8 @@ import { ArmoryComponent } from './components/utilities/armory/armory.component'
 import { ComanderAirlockComponent } from './components/comander/comander-airlock/comander-airlock.component';
 import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';
 import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';
-import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';  
+import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';
+import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';  
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ComanderAirlockCameraComponent } from './components/comander/comander-a
     ComanderAirlockComponent,
     ComanderCombatComponent,
     ComanderComsComponent,
-    ComanderAirlockCameraComponent
+    ComanderAirlockCameraComponent,
+    ComanderNavComponent
   ],
   imports: [
     BrowserModule,
