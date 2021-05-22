@@ -1,0 +1,74 @@
+.main-div{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.alerts-section{
+
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(5, 100px);
+    grid-gap: 20px;
+
+    align-self: center;
+}
+
+.roci-img{
+    margin: 10px;
+}
+
+.buttons-section{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons-section-nav{
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(3, 100px);
+
+    grid-gap: 20px;
+}
+
+.buttons-section-nav :nth-last-child(-n+2){
+    grid-column: span 1;
+}
+
+.camera{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 30px;
+}
+
+ .cameras-section{
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(1, 100px);
+    gap: 5px;
+    margin: 30px ;
+    align-self: center;
+}
+
+.cameras-section-nav :first-child{
+    flex: none none 100%
+}
+.cameras-section-nav :not(:first-child){
+    flex: none 4 50%
+}
+
+.cameras-section-nav{
+    display: flex;
+}
+/* 
+.cameras-section-nav :nth-last-child(-n+2){
+    grid-column: span 1;
+} */
