@@ -20,7 +20,8 @@ import { ComanderAirlockComponent } from './components/comander/comander-airlock
 import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';
 import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';
 import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';
-import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';  
+import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';
+import { ComanderNavVesselComponent } from './components/comander/comander-nav-vessel/comander-nav-vessel.component';  
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ComanderNavComponent } from './components/comander/comander-nav/comande
     ComanderCombatComponent,
     ComanderComsComponent,
     ComanderAirlockCameraComponent,
-    ComanderNavComponent
+    ComanderNavComponent,
+    ComanderNavVesselComponent
   ],
   imports: [
     BrowserModule,

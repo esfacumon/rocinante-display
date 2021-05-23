@@ -5,6 +5,7 @@ import { ComanderAirlockComponent } from './components/comander/comander-airlock
 import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';
 import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';
 import { ComanderMainComponent } from './components/comander/comander-main/comander-main.component';
+import { ComanderNavVesselComponent } from './components/comander/comander-nav-vessel/comander-nav-vessel.component';
 import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';
 import { GunnerMainComponent } from './components/gunner/gunner-main/gunner-main.component';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path : 'comander/coms', component : ComanderComsComponent},
   {path : 'comander/airlock-camera/:id', component : ComanderAirlockCameraComponent},
   {path : 'comander/nav', component : ComanderNavComponent},
+  {path : 'comander/nav/vessel', component : ComanderNavVesselComponent},
 ];
 
 @NgModule({
