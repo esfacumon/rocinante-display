@@ -1,0 +1,27 @@
+.main-menu-div{
+
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+
+}
+
+.full-button{
+
+    height: 10vh;
+    width: 20vw;
+
+}
+
+.half-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.half-button{
+    height: 10vh;
+    width: 9.5vw;
+}

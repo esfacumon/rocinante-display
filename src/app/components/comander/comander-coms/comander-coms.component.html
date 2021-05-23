@@ -1,0 +1,37 @@
+<div class="component-div">
+    <div class="component-top-bar">
+        <button class="button-default button-return" routerLink="..">Return</button>
+        <h1>Coms Control</h1>
+    </div>
+    <div class="coms-div">
+        <div class="coms-videocall">
+            <div class="call-screen">
+                <img src="https://img.icons8.com/material-sharp/96/ffffff/user-male-circle.png"/>
+            </div>
+            <div class="call-screen">
+                <img src="https://img.icons8.com/material-sharp/96/ffffff/user-male-circle.png"/>
+            </div>
+        </div>
+        <div class="coms-vessels">
+            
+            <h1>Vessels in Range</h1>
+            <table mat-table [dataSource]="data" #matTable class="vessels-table">
+                <ng-container matColumnDef="Name">
+                    <th mat-header-cell *matHeaderCellDef> Vessel </th>
+                    <td mat-cell *matCellDef="let data"> {{data.Name}} </td>
+                </ng-container>
+                <ng-container matColumnDef="Delay">
+                    <th mat-header-cell *matHeaderCellDef> Delay </th>
+                    <td mat-cell *matCellDef="let data"> {{data.Delay}} </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="columns"></tr>
+                <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+            </table>
+            <div class="coms-vessels-buttons">
+                <button class="button-default">Open Channel</button>
+                <button class="button-red-inactive">Close Channel</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+.combat-div{
+    display: flex;
+    flex-direction: row;
+
+    height: 90%;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.combat-info{
+    display: flex;
+    flex-direction: column;
+
+    height: 90%;
+
+    justify-content: space-between;
+}
+
+.combat-alerts{
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(1, 80px);
+    grid-gap: 20px;
+
+    align-self: center;
+}
+
+.target-button{
+
+    width: 180px;
+    height: 70px;
+}
+
+.map-img{
+    height: 90%;
+}
