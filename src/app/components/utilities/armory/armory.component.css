@@ -1,0 +1,53 @@
+.armory-main{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.armory-content{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    height: 90%;
+    width: 90%;
+}
+
+.armory-weapons{
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.weapon{
+    margin: 20px 0px;
+}
+
+.weapon img{
+    width: 30vw;
+}
+
+.armory-extras{
+    display: grid;
+
+    grid-template-columns: repeat(2, 15vw);
+    grid-template-rows: repeat(2, 15vh);
+}
+
+.extra{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+.extra img{
+    height: 10vh;
+    margin-right: 30px;
+}
