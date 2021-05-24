@@ -15,7 +15,8 @@
     display: flex;
     flex-direction: column;
 
-    justify-content: left;
+    justify-content: space-around;
+
 
     color: white;
 }
@@ -29,4 +30,25 @@
 
 .orbit-info div{
     margin: 40px;
+}
+
+.vessels-table{
+    width: 25vw;
+    background-color: #013233;
+    border: 1px solid #06E6EB;
+}
+
+.mat-cell{
+    color: white;
+    font-size: small;
+
+    border-bottom: 1px solid #06E6EB;
+    border-top: 1px solid #06E6EB;
+}
+
+.mat-header-cell{
+    color: white;
+    background-color: #06E6EB;
+
+    font-size: medium;
 }

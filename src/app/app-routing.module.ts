@@ -25,7 +25,7 @@ const routes: Routes = [
   {path : 'comander/coms', component : ComanderComsComponent},
   {path : 'comander/airlock-camera/:id', component : ComanderAirlockCameraComponent},
   {path : 'comander/nav', component : ComanderNavComponent},
-  {path : 'comander/nav/vessel', component : ComanderNavVesselComponent},
+  {path : 'comander/nav-vessel/:id', component : ComanderNavVesselComponent},
 ];
 
 @NgModule({
