@@ -11,6 +11,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { PilotMainComponent } from './components/pilot/pilot-main/pilot-main.component';
 import { AirlockComponent } from './components/utilities/airlock/airlock.component';
 import { ArmoryComponent } from './components/utilities/armory/armory.component';
+import { PilotNavComponent } from './components/pilot/pilot-nav/pilot-nav.component';
 
 const routes: Routes = [
   {path : '', component : MainMenuComponent},
@@ -24,6 +25,8 @@ const routes: Routes = [
   {path : 'comander/coms', component : ComanderComsComponent},
   {path : 'comander/airlock-camera/:id', component : ComanderAirlockCameraComponent},
   {path : 'comander/nav', component : ComanderNavComponent},
+  {path : 'pilot/nav', component : PilotNavComponent},
+
 ];
 
 @NgModule({
