@@ -12,5 +12,9 @@ export class PilotDroneComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  test(){
+    console.log("SIVA");
+  }
+
 
 }
