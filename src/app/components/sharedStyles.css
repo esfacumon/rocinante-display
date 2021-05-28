@@ -1,4 +1,48 @@
 
+
+
+
+.camera{
+    height: 240px;
+    width: 540px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    margin: 5px;
+    border-color: rgb(92, 99, 99);
+    border-style: solid;
+    border-width: 2px;
+}
+
+ .cameras-section{
+    gap: 5px;
+    margin: 30px ;
+    align-self: center;
+    
+}
+
+.cameras-section-nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-camera{
+    height: 600px;
+    width: 1100px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    margin: 5px;
+    border-color: rgb(92, 99, 99);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+
+
+
+
+
 .component-div{
     height: 90vh;
     width: 95vw;
