@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PilotNavComponent } from './pilot-nav.component';
+import { PilotDroneControlComponent } from './pilot-drone-control.component';
 
-describe('PilotNavComponent', () => {
-  let component: PilotNavComponent;
-  let fixture: ComponentFixture<PilotNavComponent>;
+describe('PilotDroneControlComponent', () => {
+  let component: PilotDroneControlComponent;
+  let fixture: ComponentFixture<PilotDroneControlComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PilotNavComponent ]
+      declarations: [ PilotDroneControlComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PilotNavComponent);
+    fixture = TestBed.createComponent(PilotDroneControlComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

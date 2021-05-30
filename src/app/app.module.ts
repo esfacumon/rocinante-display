@@ -20,7 +20,10 @@ import { ComanderAirlockComponent } from './components/comander/comander-airlock
 import { ComanderCombatComponent } from './components/comander/comander-combat/comander-combat.component';
 import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';
 import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';
-import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';  
+import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';
+import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
+import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
+import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { ComanderNavComponent } from './components/comander/comander-nav/comande
     ComanderCombatComponent,
     ComanderComsComponent,
     ComanderAirlockCameraComponent,
-    ComanderNavComponent
+    ComanderNavComponent,
+    PilotDroneControlComponent,
+    PilotNavControlComponent,
+    PilotDockingComponent
   ],
   imports: [
     BrowserModule,

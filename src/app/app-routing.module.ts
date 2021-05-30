@@ -11,8 +11,9 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { PilotMainComponent } from './components/pilot/pilot-main/pilot-main.component';
 import { AirlockComponent } from './components/utilities/airlock/airlock.component';
 import { ArmoryComponent } from './components/utilities/armory/armory.component';
-import { PilotNavComponent } from './components/pilot/pilot-nav/pilot-nav.component';
-import { PilotDroneComponent } from './components/pilot/pilot-drone/pilot-drone.component';
+import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
+import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
+import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
 
 
 const routes: Routes = [
@@ -27,8 +28,9 @@ const routes: Routes = [
   {path : 'comander/coms', component : ComanderComsComponent},
   {path : 'comander/airlock-camera/:id', component : ComanderAirlockCameraComponent},
   {path : 'comander/nav', component : ComanderNavComponent},
-  {path : 'pilot/nav', component : PilotNavComponent},
-  {path : 'pilot/drone', component : PilotDroneComponent},
+  {path : 'pilot/nav-control', component : PilotNavControlComponent},
+  {path : 'pilot/drone-control', component : PilotDroneControlComponent},
+  {path : 'pilot/docking', component : PilotDockingComponent},
 
 ];
 
