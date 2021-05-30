@@ -14,6 +14,7 @@ import { ArmoryComponent } from './components/utilities/armory/armory.component'
 import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
 import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
 import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
+import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
 
 
 const routes: Routes = [
@@ -31,7 +32,7 @@ const routes: Routes = [
   {path : 'pilot/nav-control', component : PilotNavControlComponent},
   {path : 'pilot/drone-control', component : PilotDroneControlComponent},
   {path : 'pilot/docking', component : PilotDockingComponent},
-
+  {path : 'pilot/reactor', component : PilotReactorComponent}
 ];
 
 @NgModule({

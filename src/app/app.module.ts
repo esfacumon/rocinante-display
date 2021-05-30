@@ -24,6 +24,7 @@ import { ComanderNavComponent } from './components/comander/comander-nav/comande
 import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
 import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
 import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
+import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-do
     ComanderNavComponent,
     PilotDroneControlComponent,
     PilotNavControlComponent,
-    PilotDockingComponent
+    PilotDockingComponent,
+    PilotReactorComponent
   ],
   imports: [
     BrowserModule,
