@@ -3,8 +3,8 @@
 
 
 .camera{
-    height: 240px;
-    width: 540px;
+    height: 25vh;
+    width: 28vw;
     background-color: rgb(20, 20, 20);
     border-radius: 10px;
     margin: 5px;
@@ -27,8 +27,9 @@
 }
 
 .main-camera{
-    height: 600px;
-    width: 1100px;
+    height: 60vh;
+
+    width: 60vw;
     background-color: rgb(20, 20, 20);
     border-radius: 10px;
     margin: 5px;
