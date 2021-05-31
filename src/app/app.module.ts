@@ -25,6 +25,8 @@ import { PilotDroneControlComponent } from './components/pilot/pilot-drone-contr
 import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
 import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
 import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
+import { GunnerWeaponsComponent } from './components/gunner/gunner-weapons/gunner-weapons.component';
+import { GunnerCountermeasuresComponent } from './components/gunner/gunner-countermeasures/gunner-countermeasures.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-re
     PilotDroneControlComponent,
     PilotNavControlComponent,
     PilotDockingComponent,
-    PilotReactorComponent
+    PilotReactorComponent,
+    GunnerWeaponsComponent,
+    GunnerCountermeasuresComponent
   ],
   imports: [
     BrowserModule,
