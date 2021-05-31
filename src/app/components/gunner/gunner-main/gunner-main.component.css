@@ -28,29 +28,30 @@
     flex-direction: column;
 }
 
-.batteries-bar-section, .params-bar-section{
+.right-bar-section, .params-bar-section{
     margin: 5px;
     display: flex;
     flex-direction: row;
+    align-self: center;
 }
-.batteries-section .bar{
+.params-bar-section .bar{
     margin: 25px;
 }
 
-.batteries-bar-section .bar img{
+.params-bar-section .bar img{
     height: 20vh;
+    border-radius: 20px;
 }
 
-.batteries-bar-section .bar{
+.params-bar-section .bar{
     margin: 25px;
 }
 
-.batteries-bar-section .bar img{
-    height: 20vh;
+.title-bars{
+    color: white;
+    text-align: center;
+    font-size: larger;
 }
-
-
-
 
 .button-up{
 
@@ -78,16 +79,6 @@
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
 }
-
-/*
-.drone-buttons{
-    display: grid;
-    
-    grid-template-columns: repeat(1, 12vw);
-    grid-template-rows: 60px;
-    justify-content: space-around;
-    margin-top: 30px;
-}*/
 
 .drone-button{
     text-align: center;
@@ -140,8 +131,9 @@
 }
 
 
-.docking-pic{
+.gunner-pic{
     padding-top: 30px;
+    height: 75vh;
 }
 
 
@@ -191,10 +183,8 @@
 
 .buttons-section{
     display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
+    margin-top: 35vh;
+    flex-direction: row;    
 }
 
 
@@ -202,12 +192,10 @@
 
     display: grid;
 
-    grid-template-columns: repeat(2, 130px);
-    grid-template-rows: repeat(3, 100px);
-
-    grid-gap: 20px;
+    grid-template-columns: repeat(1, 10vw);
+    grid-template-rows: repeat(1, 100px);
 }
 
-.buttons-section-nav :nth-last-child(-n+2){
-    grid-column: span 1;
+.button-danger{
+    margin: 10px;
 }
