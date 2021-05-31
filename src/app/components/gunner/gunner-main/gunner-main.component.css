@@ -11,15 +11,6 @@
 
 }
 
-.direction-control-section{
-    padding-top: 360px;
-    display: grid;
-
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    grid-gap: 0px;
-    margin: 10px;
-}
 
 
 
@@ -53,33 +44,6 @@
     font-size: larger;
 }
 
-.button-up{
-
-    text-align: center;
-    grid-column: 2 / span 1;
-    /*grid-row:*/
-}
-
-.button-down{
-
-    text-align: center;
-    grid-column: 2 / span 1;
-    grid-row: 3 / span 1;
-}
-
-.button-left{
-
-    text-align: center;
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
-}
-.button-right{
-
-    text-align: center;
-    grid-column: 3 / span 1;
-    grid-row: 2 / span 1;
-}
-
 .drone-button{
     text-align: center;
     width: auto;
@@ -87,41 +51,6 @@
     width: 300px;
 
     margin-top: 30px;
-}
-
-.camera-drone{
-    height: 180px;
-    width: 390px;
-    background-color: rgb(20, 20, 20);
-    border-radius: 10px;
-    margin: 5px;
-    border-color: rgb(92, 99, 99);
-    border-style: solid;
-    border-width: 2px;
-}
-
- .cameras-section{
-    gap: 5px;
-    margin: 30px ;
-    align-self: center;
-    
-}
-
-.cameras-section-nav{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.main-camera-drone{
-    height: 450px;
-    width: 800px;
-    background-color: rgb(20, 20, 20);
-    border-radius: 10px;
-    margin: 5px;
-    border-color: rgb(92, 99, 99);
-    border-style: solid;
-    border-width: 2px;
 }
 
 .gunner-main-div{
@@ -136,26 +65,6 @@
     height: 75vh;
 }
 
-
-.nav-map-img{
-    height: 80vh;
-}
-
-.drone-deploy{
-
-    margin-left: 100px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: auto;
-
-}
-
-.drone-pic{
-    padding-top: 150px;
-}
 
 .parameters-info{
     display: flex;
@@ -174,10 +83,6 @@
 .parameters-section-nav{
     margin-top: 30px;
 }
-
-/* .parameter-section{
-    border: solid 1px white;
-} */
 
 
 

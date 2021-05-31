@@ -15,6 +15,8 @@ import { PilotDroneControlComponent } from './components/pilot/pilot-drone-contr
 import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
 import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
 import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
+import { GunnerCountermeasuresComponent } from './components/gunner/gunner-countermeasures/gunner-countermeasures.component';
+import { GunnerWeaponsComponent } from './components/gunner/gunner-weapons/gunner-weapons.component';
 
 
 const routes: Routes = [
@@ -32,7 +34,9 @@ const routes: Routes = [
   {path : 'pilot/nav-control', component : PilotNavControlComponent},
   {path : 'pilot/drone-control', component : PilotDroneControlComponent},
   {path : 'pilot/docking', component : PilotDockingComponent},
-  {path : 'pilot/reactor', component : PilotReactorComponent}
+  {path : 'pilot/reactor', component : PilotReactorComponent},
+  {path : 'gunner/countermeasures', component : GunnerCountermeasuresComponent},
+  {path : 'gunner/weapons', component : GunnerWeaponsComponent}
 ];
 
 @NgModule({

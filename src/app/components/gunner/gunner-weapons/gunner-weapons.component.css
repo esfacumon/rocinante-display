@@ -1,0 +1,105 @@
+
+.alerts-section{
+
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    grid-gap: 20px;
+    margin: 15px;
+    align-self: center;
+
+}
+
+.center-section{
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+.right-section{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.right-section .bar{
+    margin-top: 2vh;
+    transform: rotate(-2deg);
+    border-radius: 28px;
+}
+
+.gunner-weapons-div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.left-section{
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-map-img{
+    height: 80vh;
+}
+
+.parameters-info{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px white;
+    border-radius: 8px;
+    color: white;
+    height: fit-content;
+    margin: 30px;
+}
+
+.parameters-info div{
+    margin: 40px;
+}
+
+.parameters-section-nav{
+    margin-top: 30px;
+}
+
+
+.buttons-section-nav{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.missile-info{
+    align-content: center;
+    color: white;
+    background-color: rgb(133, 123, 123);
+    border-radius: 5px;
+    margin: 15px;
+    margin-bottom: 40px;
+}
+
+.right-section{
+    width: 33vw;
+    height: 60vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section img{
+    align-self: center;
+}
+
+.right-section .button-danger, .center-section .button-danger{
+    width: 10vw;
+    height: 7vh;    
+    align-self: center;
+}

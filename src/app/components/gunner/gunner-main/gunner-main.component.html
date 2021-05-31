@@ -1,8 +1,4 @@
 <div class="component-div">
-    <div class="component-top-bar">
-        <button class="button-default button-return" routerLink="/pilot">Return</button>
-        <h1>Docking Control</h1> 
-    </div>
     <div class="gunner-main-div">
         <div class="alerts-section">
             <div class="alert-indicator">
@@ -18,7 +14,7 @@
                 <h6>Missile</h6>
             </div>
         </div> 
-        <div class="docking-pic-section">
+        <div class="gunner-pic-section">
             <img class="gunner-pic" src="../../../../assets/gunner.png"/>
         </div>
 
@@ -37,14 +33,17 @@
                     <div class="bar">
                         <img src="../../../../assets/red-bar.png"/>
                     </div>
+                    <div class="bar">
+                        <img src="../../../../assets/red-bar.png"/>
+                    </div>
                 </div>
             </div>
             <div class="buttons-section">
                 <div class="buttons-section-nav">
-                    <button class="button-danger">Countermeasures</button>
+                    <button class="button-danger" routerLink="/gunner/countermeasures">Countermeasures</button>
                 </div>
                 <div class="buttons-section-nav">
-                    <button class="button-danger">Weapons</button>
+                    <button class="button-danger" routerLink="/gunner/weapons">Weapons</button>
                 </div>
             </div>
         </div>
