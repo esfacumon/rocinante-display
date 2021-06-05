@@ -1,0 +1,70 @@
+
+.coms-div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    margin: auto;
+}
+
+.coms-videocall{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-screen{
+    background-color: black;
+    border: 1px solid #06E6EB;
+    border-radius: 2px;
+
+    height: 30vh;
+    width: 30vw;
+
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-screen img{
+    height: 90%;
+}
+
+.coms-vessels h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.vessels-table{
+    width: 35vw;
+    background-color: #013233;
+    border: 1px solid #06E6EB;
+}
+
+.mat-cell{
+    color: white;
+    font-size: small;
+
+    border-bottom: 1px solid #06E6EB;
+    border-top: 1px solid #06E6EB;
+}
+
+.mat-header-cell{
+    color: white;
+    background-color: #06E6EB;
+
+    font-size: medium;
+}
+
+.coms-vessels-buttons{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 12vw);
+    grid-template-rows: 60px;
+
+    justify-content: space-around;
+
+    margin-top: 30px;
+}

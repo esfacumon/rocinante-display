@@ -1,0 +1,59 @@
+.nav-div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.nav-map-img{
+    height: 80vh;
+}
+
+.nav-info{
+
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: white;
+}
+
+.orbit-info{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px white;
+}
+
+.orbit-info div{
+    margin: 40px;
+}
+
+.parameters-section-nav{
+    margin-top: 30px;
+}
+
+/* .parameter-section{
+    border: solid 1px white;
+} */
+
+.parameter-name{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+.parameter-value-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    border-radius: 9px;
+    margin: 10px;
+    padding: 12px;
+}
+
+.parameter-button, .parameter-value{
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #013233;
+    border: 1px solid #06E6EB;
+    border-radius: 10px;
+}

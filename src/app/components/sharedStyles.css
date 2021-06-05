@@ -1,5 +1,147 @@
+.camera{
+    height: 25vh;
+    width: 28vw;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    margin: 5px;
+    border-color: rgb(92, 99, 99);
+    border-style: solid;
+    border-width: 2px;
+}
+
+ .cameras-section{
+    gap: 5px;
+    margin: 30px ;
+    align-self: center;
+    
+}
+
+.cameras-section-nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-camera{
+    height: 50vh;
+
+    width: 60vw;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    margin: 5px;
+    border-color: rgb(92, 99, 99);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+
+
+
+
 
 .component-div{
-    height: 95vh;
+    height: 90vh;
     width: 95vw;
+}
+
+.component-top-bar{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.component-top-bar h1{
+    color: white;
+    font-size: 2em;
+
+    margin: 0px !important;
+}
+
+.button-return{
+    height: 50px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+
+.alert-indicator{
+
+    background-color: #290C0C;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    
+}
+
+.alert-indicator h6{
+    margin: 0px !important;
+
+    font-size: small;
+}
+
+.button-default{
+    background-color: #013233;
+    border: 1px solid #06E6EB;
+    border-radius: 10px;
+
+    color: white;
+}
+
+.button-red-inactive{
+    background-color: #290C0C;
+    border: 1px solid #B20000;
+    border-radius: 10px;
+
+    color: white;
+}
+
+
+.button-danger{
+    background-color: #B20000;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    color: white;
+}
+
+
+.parameters-section-nav{
+    margin-top: 30px;
+}
+
+/* .parameter-section{
+    border: solid 1px white;
+} */
+
+.parameter-name{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+.parameter-value-section{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    border-radius: 9px;
+    margin: 10px;
+    padding: 12px;
+    color: white;
+}
+
+.parameter-button, .parameter-value{
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #013233;
+    border: 1px solid #06E6EB;
+    border-radius: 10px;
+    margin: 0.75vw;
 }

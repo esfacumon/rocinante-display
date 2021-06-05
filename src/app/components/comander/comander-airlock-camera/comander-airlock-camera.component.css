@@ -1,0 +1,38 @@
+.airlock-camera-div{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    color: white;
+
+}
+
+.airlock-state{
+    color: green;
+    font-size: 3em;
+
+    margin: 40px;
+}
+
+.airlock-img{
+    height: 40vh;
+}
+
+.airlock-buttons-div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-top: 40px;
+}
+
+.airlock-camera-button{
+    width: 150px;
+    height: 50px;
+}
+

@@ -1,0 +1,29 @@
+.airlock-div{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 90%;
+}
+
+.airlock-list{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    height: 80%;
+    margin: 40px;
+}
+
+.button-airlock{
+    width: 140px;
+    height: 40px;
+}
+
+.roci-img{
+    margin: 10px;
+    height: 90%;
+}

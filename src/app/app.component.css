@@ -1,7 +1,33 @@
 .main-div{
-    background-color: #222222;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+mat-toolbar{
+    background-color: #333;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+mat-toolbar a{
+    height: 100%;
+}
+
+mat-toolbar a img{
+    height: 90%;
+}
+
+.router-div{
+    background-color: #222222;
+
+    flex: 1;
+    
 
     display: flex;
     align-items: center;
