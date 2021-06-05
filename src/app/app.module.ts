@@ -22,6 +22,12 @@ import { ComanderComsComponent } from './components/comander/comander-coms/coman
 import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';
 import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';
 import { ComanderNavVesselComponent } from './components/comander/comander-nav-vessel/comander-nav-vessel.component';  
+import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
+import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
+import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
+import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
+import { GunnerWeaponsComponent } from './components/gunner/gunner-weapons/gunner-weapons.component';
+import { GunnerCountermeasuresComponent } from './components/gunner/gunner-countermeasures/gunner-countermeasures.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +44,12 @@ import { ComanderNavVesselComponent } from './components/comander/comander-nav-v
     ComanderAirlockCameraComponent,
     ComanderNavComponent,
     ComanderNavVesselComponent
+    PilotDroneControlComponent,
+    PilotNavControlComponent,
+    PilotDockingComponent,
+    PilotReactorComponent,
+    GunnerWeaponsComponent,
+    GunnerCountermeasuresComponent
   ],
   imports: [
     BrowserModule,

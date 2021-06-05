@@ -12,6 +12,13 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { PilotMainComponent } from './components/pilot/pilot-main/pilot-main.component';
 import { AirlockComponent } from './components/utilities/airlock/airlock.component';
 import { ArmoryComponent } from './components/utilities/armory/armory.component';
+import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
+import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
+import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
+import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
+import { GunnerCountermeasuresComponent } from './components/gunner/gunner-countermeasures/gunner-countermeasures.component';
+import { GunnerWeaponsComponent } from './components/gunner/gunner-weapons/gunner-weapons.component';
+
 
 const routes: Routes = [
   {path : '', component : MainMenuComponent},
@@ -26,6 +33,12 @@ const routes: Routes = [
   {path : 'comander/airlock-camera/:id', component : ComanderAirlockCameraComponent},
   {path : 'comander/nav', component : ComanderNavComponent},
   {path : 'comander/nav-vessel/:id', component : ComanderNavVesselComponent},
+  {path : 'pilot/nav-control', component : PilotNavControlComponent},
+  {path : 'pilot/drone-control', component : PilotDroneControlComponent},
+  {path : 'pilot/docking', component : PilotDockingComponent},
+  {path : 'pilot/reactor', component : PilotReactorComponent},
+  {path : 'gunner/countermeasures', component : GunnerCountermeasuresComponent},
+  {path : 'gunner/weapons', component : GunnerWeaponsComponent}
 ];
 
 @NgModule({

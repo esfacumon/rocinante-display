@@ -1,0 +1,60 @@
+.alert-indicator{
+    height: 8vh;
+    margin: 8px;
+}
+
+.bar img{
+    height: 35vh;
+    border-radius: 20px;
+}
+
+.bar{
+    margin: 25px;
+}
+
+.countermeasure-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+ctrms-pic-section{
+    height: ;
+
+}
+
+ctrms-pic{
+    margin: 5px;
+}
+
+.gunner-countermeasures-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.title{
+    font-size: larger;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+/* 
+<div class="gunner-countermeasures-div">
+<div class="countermeasure-component">
+    <div class="alert-indicator">
+        <h6>Ammo</h6>
+    </div>
+    <div class="gunner-pic-section">
+        <img class="gunner-pic" src="../../../../assets/gunner.png"/>
+    </div>
+    <div class="title">CIWS 1</div>
+    <div class="bar">
+        <img src="../../../../assets/red-bar.png"/>
+    </div>
+</div>
+</div> */
