@@ -1,0 +1,20 @@
+<div class="component-div">
+    <div class="component-top-bar">
+        <button class="button-default button-return" routerLink="/comander/nav">Return</button>
+        <h1>Nav Control</h1>
+    </div>
+    <div class="nav-div">
+        <img class="nav-map-img" src={{activeVessel.img}}/>
+        <div class="nav-info">
+            <h1>{{activeVessel.name}}</h1>
+            <img class="img-nation" src={{activeVessel.flag}} />
+            <div class="vessel-info">
+                <p>Height: {{activeVessel.height}} m</p>
+                <p>Width: {{activeVessel.width}} m</p>
+                <p>Distance: {{activeVessel.distance}}</p>
+                <p>Type: {{activeVessel.type}}</p>
+            </div>
+            <button class="button-default button-open-coms" routerLink="/comander/coms">Open Comm Chanel</button>
+        </div>       
+    </div>   
+</div>

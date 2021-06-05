@@ -21,6 +21,7 @@ import { ComanderCombatComponent } from './components/comander/comander-combat/c
 import { ComanderComsComponent } from './components/comander/comander-coms/comander-coms.component';
 import { ComanderAirlockCameraComponent } from './components/comander/comander-airlock-camera/comander-airlock-camera.component';
 import { ComanderNavComponent } from './components/comander/comander-nav/comander-nav.component';
+import { ComanderNavVesselComponent } from './components/comander/comander-nav-vessel/comander-nav-vessel.component';  
 import { PilotDroneControlComponent } from './components/pilot/pilot-drone-control/pilot-drone-control.component';
 import { PilotNavControlComponent } from './components/pilot/pilot-nav-control/pilot-nav-control.component';
 import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-docking.component';
@@ -42,6 +43,7 @@ import { GunnerCountermeasuresComponent } from './components/gunner/gunner-count
     ComanderComsComponent,
     ComanderAirlockCameraComponent,
     ComanderNavComponent,
+    ComanderNavVesselComponent
     PilotDroneControlComponent,
     PilotNavControlComponent,
     PilotDockingComponent,
