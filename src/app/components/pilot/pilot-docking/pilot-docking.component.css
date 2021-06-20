@@ -115,6 +115,9 @@
 
 .docking-pic{
     padding-top: 30px;
+
+    border: solid 2px rgb(92, 99, 99);
+    border-radius: 10px;
 }
 
 

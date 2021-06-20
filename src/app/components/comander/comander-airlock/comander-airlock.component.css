@@ -26,4 +26,7 @@
 .roci-img{
     margin: 10px;
     height: 90%;
+
+    border: solid 2px rgb(92, 99, 99);
+    border-radius: 10px;
 }

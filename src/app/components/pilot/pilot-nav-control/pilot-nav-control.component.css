@@ -7,6 +7,8 @@
 
 .nav-map-img{
     height: 80vh;
+    border: solid 2px rgb(92, 99, 99);
+    border-radius: 10px;
 }
 
 .nav-info{
@@ -56,4 +58,6 @@
     background-color: #013233;
     border: 1px solid #06E6EB;
     border-radius: 10px;
+
+    user-select: none;
 }

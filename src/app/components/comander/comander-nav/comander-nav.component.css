@@ -7,6 +7,10 @@
 
 .nav-map-img{
     height: 80vh;
+
+    border: solid 2px rgb(92, 99, 99);
+    border-radius: 10px;
+    margin-top: 1%;
 }
 
 .nav-info{

@@ -14,7 +14,7 @@
                     <p>3000 m/s</p>
                     <p>T -12d</p>
                 </div>
-                <div>
+                <div> 
                     <h2>Apoapsis</h2>
                     <p>4 Gm</p>
                     <p>2000 m/s</p>
@@ -25,18 +25,18 @@
                 <div class="parameter-section">
                     <div class="parameter-name">Speed</div>
                     <div class="parameter-value-section">
-                        <div class="parameter-button">-</div>
-                        <div class="parameter-value">1000m/s</div>
-                        <div class="parameter-button">+</div>
+                        <div class="parameter-button" (click)="decSpeed()">-</div>
+                        <div class="parameter-value">{{speed}} m/s</div>
+                        <div class="parameter-button" (click)="incSpeed()">+</div>
                     </div>
 
                 </div>
                 <div class="parameter-section">
                     <div class="parameter-name">Heading</div>
                     <div class="parameter-value-section">
-                        <div class="parameter-button">-</div>
-                        <div class="parameter-value">42°</div>
-                        <div class="parameter-button">+</div>
+                        <div class="parameter-button" (click)="decHeading()">-</div>
+                        <div class="parameter-value">{{heading}} º</div>
+                        <div class="parameter-button" (click)="incHeading()">+</div>
                     </div>
                 </div>
             </div>
