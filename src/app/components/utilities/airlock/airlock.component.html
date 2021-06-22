@@ -1,9 +1,15 @@
 <div class="airlock-camera-div">
-    <h1>Airlock 3</h1>
-    <h3>Reactor Airlock</h3>
-    <h1 class="airlock-state">CLOSED</h1>
-    <p>Password</p>
-    <input class="password-input" type="password"/>
-    <button class="button-red-inactive airlock-camera-button">Open Lock</button>
+    <div class="airlock-camera-inner-div">
+        <h1>Airlock 3</h1>
+        <h3>Reactor Airlock</h3>
+        <h1 class="airlock-state">{{state}}</h1>
+        <p>Password</p>
+        <form class="airlock-form" (submit)="onSubmit()">
+            <div class="form-group">
+                <input [(ngModel)]="pass" class="password-input" type="password" name="first"/>
+            </div>       
+            <button class="button-red-inactive airlock-camera-button" type="submit">Open Lock</button>
+        </form>
+    </div>
 
-</div>
+</div> 

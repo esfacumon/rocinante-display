@@ -27,6 +27,7 @@ import { PilotDockingComponent } from './components/pilot/pilot-docking/pilot-do
 import { PilotReactorComponent } from './components/pilot/pilot-reactor/pilot-reactor.component';
 import { GunnerWeaponsComponent } from './components/gunner/gunner-weapons/gunner-weapons.component';
 import { GunnerCountermeasuresComponent } from './components/gunner/gunner-countermeasures/gunner-countermeasures.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { GunnerCountermeasuresComponent } from './components/gunner/gunner-count
     MatToolbarModule,
     MatButtonModule,
     MatTableModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
